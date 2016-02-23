@@ -4,12 +4,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Jaleo App</title>
-		<meta name="description" content="Página de prueba">
-		<meta name="author" content="Máximo paquete">
+		<meta name="description" content="Página de inicio Jaleo">
+		<meta name="Arístides" content="Máximo paquete">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <!-- para versiones viejunas de Internet Explorer -->
+        <link rel="shortcut icon" href="favicon.ico">
   </head>
 
   <body>
-
 		<!-- inicio header -->
 		<header>
 			<nav>
@@ -32,157 +34,162 @@
 				</ul>
 			</nav>
 		</header>
-		<!-- / fin header -->
 
 		<!-- inicio section hero or carrousel -->
 		<section>
 			<div>
-				<h1>Los Vengadores: La Era de Ultrón</h1>
+                <div>
+                    <h1>Los Vengadores: La Era de Ultrón</h1>
+                </div>
+				<div>
+                    <ul>
+                        <li> 
+                        <time>2015</time>
+                        </li>
+                        <li>
+                        <abbr title="Mayores de">+</abbr>18 <span><abbr title="Alta definición">HD</abbr></span>
+                        </li>
+                    </ul>
+                </div>
 				<a href="#">MÁS INFO</a>
 				<a href="#">VER AHORA 2,95€</a>
 			</div>
 		</section>
-		<!-- fin section hero or carrousel -->
 
 		<!-- inicio section catalogue -->
 		<section>
 			<!-- inicio barra de filtro -->
 			<div>
 				<form>
-					<!--Duda para usar la etiqueta <label>
-					<label> for="Filter">Filtrar por</label>
-					<select>
-						<opgroup label="Tipo">
-							<option value="Tipo1">Tipo1</option>
-							<option value="Tipo2">Tipo2</option>
-							<option value="Tipo3">Tipo3</option>
-							<option value="Tipo4">Tipo4</option>
-						</opgroup>
-					</select>
-					-->
-					<label for="filtro">Filtrar por</label>
-					<select id="filtro">
-						<option>filtro1</option>
-						<option>filtro2</option>
-						<option>filtro3</option>
-					</select>
-					<select>
-						<option>genero1</option>
-						<option>genero2</option>
-						<option>genero3</option>
-					</select>
-					<input type="checkbox" id="novedades" />
-					<label for="novedades">Solo novedades</label>
-					<label for="ordenar">Filtrar por</label>
-					<select id="ordenar">
-						<option>ordenar1</option>
-						<option>ordenar2</option>
-						<option>ordenar3</option>
-					</select>
-				</form>
+                    <fieldset>
+                        <label for="filtro">Filtrar por</label>
+                        <select id="filtro">
+                            <option>filtro1</option>
+                            <option>filtro2</option>
+                            <option>filtro3</option>
+                        </select>
+                        <select>
+                            <option>genero1</option>
+                            <option>genero2</option>
+                            <option>genero3</option>
+                        </select>
+                        <input type="checkbox" id="novedades" />
+                        <label for="novedades">Solo novedades</label>
+                    </fieldset>
+                    <fieldset>
+                       <label for="ordenar">Filtrar por</label>
+                        <select id="ordenar">
+                            <option>ordenar1</option>
+                            <option>ordenar2</option>
+                            <option>ordenar3</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
 			</div>
-			<!-- Fin barra de filtro -->
 
 			<!-- inicio catálogo -->
-			<div>
-				<!-- ejemplo con lista desordenada -->
-				<ul>
-					<li>
-						<img src="images/posters/127-dias.jpg" alt="más info sobre la película 127 horas" />
-			    		<h3>127 horas</h3>
-						<time>2010</time>
-					</li>
-					<li>
-						<img src="images/posters/apocalypse-now.jpg" alt="más info sobre la película Apocalípsis Now" />
-						<h3>Apocalypse Now</h3>
-						<time>1979</time>
-					</li>
-						<li>
-						<img src="images/posters/dracula.jpg" alt="más info sobre la película Drácula" />
-			    		<h3>Drácula</h3>
-						<time>1931</time>
-					</li>
-					<li>
-						<img src="images/posters/selma.jpg" alt="más info sobre la película Selma" />
-						<h3>Selma</h3>
-						<time>2014</time>
-					</li>
-					<li>
-						<img src="images/posters/batman.jpg" alt="más info sobre la película Batman" />
-			    		<h3>Batman</h3>
-						<time>1966</time>
-					</li>
-					<li>
-						<img src="images/posters/et.jpg" alt="más info sobre la película E.T., el extraterrestre" />
-						<h3>E.T., el extraterrestre</h3>
-						<time>1982</time>
-					</li>
-					<li>
-						<img src="images/posters/amelie.jpg" alt="más info sobre la película Amelie" />
-						<h3>Amelie</h3>
-						<time>2001</time>
-					</li>
-					<li>
-						<img src="images/posters/cisne-negro.jpg" alt="más info sobre la película Cisne Negro" />
-						<h3>Cisne Negro</h3>
-						<time>2010</time>
-					</li>
-					<li>
-						<img src="images/posters/her.jpg" alt="más info sobre la película Her" />
-						<h3>Her</h3>
-						<time>2013</time>
-					</li>
-					<li>
-						<img src="images/posters/el-silencio-de-los-corderos.jpg" alt="más info sobre la película El Silencio de los Corderos" />
-						<h3>El Silencio de los Corderos</h3>
-						<time>1991</time>
-					</li>
-					<li>
-						<img src="images/posters/avatar.jpg" alt="más info sobre la película Avatar" />
-						<h3>Avatar</h3>
-						<time>2009</time>
-					</li>
-					<li>
-						<img src="images/posters/malefica.jpg" alt="más info sobre la película Maléfica" />
-						<h3>Maléfica</h3>
-						<time>2014</time>
-					</li>
-					<li>
-						<img src="images/posters/american-beauty.jpg" alt="más info sobre la película American Beauty" />
-						<h3>American Beauty</h3>
-						<time>1999</time>
-					</li>
-					<li>
-						<img src="images/posters/tintin.jpg" alt="más info sobre la película Las Aventuras de Tin Tin" />
-						<h3>Las Aventuras de Tin Tin</h3>
-						<time>2011</time>
-					</li> 
-					<li>
-						<img src="images/posters/sinsajo.jpg" alt="más info sobre la película Los juegos del hambre: sinsajo parte-1" />
-						<h3>Los juegos del hambre: sinsajo parte-1</h3>
-						<time>2014</time>
-					</li>
-					<li>
-						<img src="images/posters/vengadores.jpg" alt="más info sobre la película Los Vengadores" />
-						<h3>Los Vengadores</h3>
-						<time>2011</time>
-					</li>
-					<li>
-						<img src="images/posters/parque-jurasico.jpg" alt="más info sobre la película Parque Jurásico" />
-						<h3>Parque Jurásico</h3>
-						<time>1993</time>
-					</li>
-					<li>
-						<img src="images/posters/totoro.jpg" alt="más info sobre la película Mi vecino Totoro" />
-						<h3>Mi vecino Totoro</h3>
-						<time>1988</time>
-					</li>
-				</ul>
-				<!-- fin ejemplo lista desordenada -->
-
-			</div>
-			<div>
-				<hr align="left" noshade="noshade" size="2" width="80%" />
+            <div>
+                <div>
+                    <ul>
+                        <li>
+                            <img src="images/posters/127-dias.jpg" alt="más info sobre la película 127 horas" />
+                            <h3>127 horas</h3>
+                            <time>2010</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/apocalypse-now.jpg" alt="más info sobre la película Apocalípsis Now" />
+                            <h3>Apocalypse Now</h3>
+                            <time>1979</time>
+                        </li>
+                            <li>
+                            <img src="images/posters/dracula.jpg" alt="más info sobre la película Drácula" />
+                            <h3>Drácula</h3>
+                            <time>1931</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/selma.jpg" alt="más info sobre la película Selma" />
+                            <h3>Selma</h3>
+                            <time>2014</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/batman.jpg" alt="más info sobre la película Batman" />
+                            <h3>Batman</h3>
+                            <time>1966</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/et.jpg" alt="más info sobre la película E.T., el extraterrestre" />
+                            <h3>E.T., el extraterrestre</h3>
+                            <time>1982</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/amelie.jpg" alt="más info sobre la película Amelie" />
+                            <h3>Amelie</h3>
+                            <time>2001</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/cisne-negro.jpg" alt="más info sobre la película Cisne Negro" />
+                            <h3>Cisne Negro</h3>
+                            <time>2010</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/her.jpg" alt="más info sobre la película Her" />
+                            <h3>Her</h3>
+                            <time>2013</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/el-silencio-de-los-corderos.jpg" alt="más info sobre la película El Silencio de los Corderos" />
+                            <h3>El Silencio de los Corderos</h3>
+                            <time>1991</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/avatar.jpg" alt="más info sobre la película Avatar" />
+                            <h3>Avatar</h3>
+                            <time>2009</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/malefica.jpg" alt="más info sobre la película Maléfica" />
+                            <h3>Maléfica</h3>
+                            <time>2014</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/american-beauty.jpg" alt="más info sobre la película American Beauty" />
+                            <h3>American Beauty</h3>
+                            <time>1999</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/tintin.jpg" alt="más info sobre la película Las Aventuras de Tin Tin" />
+                            <h3>Las Aventuras de Tin Tin</h3>
+                            <time>2011</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/sinsajo.jpg" alt="más info sobre la película Los juegos del hambre: sinsajo parte-1" />
+                            <h3>Los juegos del hambre: sinsajo parte-1</h3>
+                            <time>2014</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/vengadores.jpg" alt="más info sobre la película Los Vengadores" />
+                            <h3>Los Vengadores</h3>
+                            <time>2011</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/parque-jurasico.jpg" alt="más info sobre la película Parque Jurásico" />
+                            <h3>Parque Jurásico</h3>
+                            <time>1993</time>
+                        </li>
+                        <li>
+                            <img src="images/posters/totoro.jpg" alt="más info sobre la película Mi vecino Totoro" />
+                            <h3>Mi vecino Totoro</h3>
+                            <time>1988</time>
+                        </li>
+                    </ul>
+                    <!-- fin ejemplo lista desordenada -->
+                </div>
+            </div>
+            <hr align="left" noshade="noshade" size="2" width="80%" />
+            <div>
 				<p>Tenemos 4526 referencias</p>
 				<a href="#">VER MÁS</a>
 			</div>
@@ -238,7 +245,6 @@
 
 		<!-- main footer -->
 		<footer>
-			<!-- ejemplo footer -->
 			<div>
 				<h3>PÁGINA</h3>
 				<ul>
@@ -272,7 +278,6 @@
 				<address>&copy; Jaleo de España S.A.<br/>Calle del Rey, 23<br/>28080 MADRID</address>
 				<p>0034 555 55 65 85<br/><a href="mailto:info@jaleoapp.es">info@jaleoapp.es</a></p>
 			</div>
-			<!-- fin ejemplo footer -->
 		</footer>
 		<!-- main footer -->
 
