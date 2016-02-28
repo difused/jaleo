@@ -1,0 +1,411 @@
+!!!
+%html{:lang => "es"}
+  %head
+    %meta{:charset => "utf-8"}
+      %title Jaleo App
+      %meta{:content => "Página de inicio Jaleo", :name => "description"}
+        %meta{:content => "Máximo paquete", :name => "Arístides"}
+          %link{:href => "favicon.png", :rel => "icon", :type => "image/png"}
+            / para versiones viejunas de Internet Explorer
+            %link{:href => "favicon.ico", :rel => "shortcut icon"}
+  %body
+    / inicio header
+    %header
+      %nav
+        %ul
+          %li
+            %a(href = "") Jaleo
+          %li
+            %a(href = "") PelículasSSSSSSSSSS
+          %li
+            %a(href = "") Series
+          %li
+            %a(href = "") Explora
+          %li
+            %a(href = "") Iniciar sesión
+    / inicio section hero or carrousel
+    %section
+      %h1 Los Vengadores: La Era de Ultrón
+      %ul
+        %li
+          %time 2015
+        %li
+          %abbr(title = "Mayores de")> +
+          18
+          %span
+            %abbr(lang = "es" title = "High Definition") HD
+      %a(href = "") MÁS INFO
+      %a(href = "") VER AHORA 2,95€
+    / inicio section catalogue
+    #main(role = "main")
+      %section.catalogue
+        %h2 Catálogo de películas de Jaleo
+        / inicio barra de filtro
+        %form
+          %fieldset
+            %legend Filtro
+            %label(for = "filtro") Filtrar por
+            %select#filtro
+              %option filtro1
+              %option filtro2
+              %option filtro3
+            %select
+              %option genero1
+              %option genero2
+              %option genero3
+            %input#novedades(type = "checkbox")/
+            %label(for = "novedades") Solo novedades
+          %fieldset
+            %label(for = "ordenar") Ordenar por
+            %select#ordenar
+              %option ordenar1
+              %option ordenar2
+              %option ordenar3
+          %fieldset
+            %input(type = "submit" value = "Actualizar el formulario")
+        / inicio catálogo
+        %ul
+          %li
+            %a(href = "#")
+              %img(alt = "Póster 127 Horas" src = "images/posters/127-dias.jpg")
+                %h3 127 Días
+                %time(datetime = "2010") 2010
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "#") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la película Apocalípsis Now" src = "images/posters/apocalypse-now.jpg")
+                %h3 Apocalypse Now
+                %time(datetime = "1979") 1979
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "#") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película Drácula" src = "images/posters/dracula.jpg")
+                %h3 Drácula
+                %time(datetime = "1931") 1931
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película Selma" src = "images/posters/selma.jpg")
+                %h3 Selma
+                %time(datetime = "2014") 2014
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película Batman", src = "images/posters/batman.jpg")
+                %h3 Batman
+                %time(datetime = "1966") 1966
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película E.T., el extraterrestre" src = "images/posters/et.jpg")
+                %h3 E.T., el extraterrestre
+                %time(datetime = "1982") 1982
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película  Amelie" src = "images/posters/et.jpg")
+                %h3 Amelie
+                %time(datetime = "2001") 2001
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película Cisne Negro" src = "images/posters/cisne-negro.jpg")
+                %h3 Amelie
+                %time(datetime = "2013") 2013
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película  El Silencio de los Corderos" src = "images/posters/el-silencio-de-los-corderos.jpg")
+                %h3 El silencio de los corderos
+                %time(datetime = "1991") 1991
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película Avatar" src = "images/posters/avatar.jpg")
+                %h3 Avatar
+                %time(datetime = "2009") 2009
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película Maléfica" src = "images/posters/malefica.jpg")
+                %h3 Maléfica
+                %time(datetime = "2014") 2014
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película American Beauty" src = "images/posters/american-beauty.jpg")
+                %h3 American Beauty
+                %time(datetime = "1999") 1999
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la  película Las Aventuras de Tin Tin" src = "images/posters/tintin.jpg")
+                %h3 Las Aventuras de Tin Tin
+                %time(datetime = "2011") 2011
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "#") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la película Los juegos del hambre: sinsajo parte-1" src = "images/posters/sinsajo.jpg")
+                %h3 Los juegos del hambre: sinsajo parte-1
+                %time(datetime = "2014") 2014
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la película Los Vengadores" src = "images/posters/vengadores.jpg")
+                %h3 Los Vengadores
+                %time(datetime = "2011") 2011
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la película Parque Jurásico" src = "images/posters/parque-jurasico.jpg")
+                %h3 Parque Jurásico
+                %time(datetime = "1993") 1993
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %ul
+          %li
+            %a(href = "")
+              %img(alt = "más info sobre la película Mi vecino Totoro" src = "images/posters/totoro.jpg")
+                %h3 Mi vecino Totoro
+                %time(datetime = "1988") 1988
+            %ul
+              %li
+                Lorem ipsum dolor sit amet consectetur...
+                %a(href = "") Más
+              %li
+                %span 4 de 5 estrellas
+              %li
+                %a(href = "")
+                  %strong 2,95€
+        %div
+          %p Tenemos 4526 referencias
+          %a(href = "") VER MÁS
+        / Fin catálogo
+      / section publishers
+      %section
+        %h2 Listado de distribuidoras
+        %ul
+          %li
+            %a(href = "") dreamworks
+          %li
+            %a(href = "") filmaz
+          %li
+            %a(href = "") universal
+          %li
+            %a(href = "") Otras distribuidoras
+      / section how-to
+      %section
+        %h2 Listado de distribuidoras
+        %ol
+          %li
+            %dl
+              / <img src="images/icons/a.svg" alt="icono elige tu peli" />
+              %dt Elige tu película
+              %dd Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          %li
+            %dl
+              / <img src="images/icons/b.svg" alt="icono cómprala en un clic" />
+              %dt Cómprala en clic
+              %dd Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text.
+          %li
+            %dl
+              / <img src="images/icons/b.svg" alt="icono cómprala en un clic" />
+              %dt Disfrútala donde quieras
+              %dd Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    / main footer
+    %footer
+      %div
+        %h2 PÁGINA
+        %ul
+          %li
+            %a(href = "") Blog
+          %li
+            %a(href = "") Prensa
+          %li
+            %a(href = "") Condiciones de uso
+          %li
+            %a(href = "") Privacidad
+          %li
+            %a(href = "") Soporte
+      %div
+        %h2 CORPORATIVO
+        %ul
+          %li
+            %a(href = "") Nosotros
+          %li
+            %a(href = "") Contacto
+          %li
+            %a(href = "" hreflang = "EN") English site
+          %li
+            %a(href = "" hreflang = "DE") Deutsch Website
+          %li
+            %a(href = "" hreflang = "FR") Site français
+      %div
+        %h2 SÍGUENOS
+        %ul
+          %li
+            %a(href = "")
+              %i
+              Facebook
+          %li
+            %a(href = "")
+              %i
+              Twitter
+          %li
+            %a(href = "")
+              %i
+              Pinterest
+      %div
+        %img(alt = "JALEO" src => ""}/
+        %address
+          \&copy; Jaleo de España S.A.
+          %br>/
+          Calle del Rey, 23
+          %br>/
+          28080 MADRID
+        %p
+          0034 555 55 65 85
+          %br/
+          %a(href = "mailto:info@jaleoapp.es") info@jaleoapp.es
