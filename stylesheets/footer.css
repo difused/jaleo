@@ -1,0 +1,9 @@
+@import url('atoms/subenlaces.css');
+
+footer {
+	background-color: #d4145a;
+	padding-top: 50px;
+}
+footer nav {
+	background-color: #green;
+}

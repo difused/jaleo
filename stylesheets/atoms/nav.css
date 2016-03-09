@@ -1,0 +1,46 @@
+.menu {
+	list-style: none;
+	margin-right: 30px;
+	margin-top: 21px;
+}
+
+.menu li {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+
+.menu li a {
+	color: #fff;
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	text-decoration: underline;
+	opacity: 1;
+}
+
+.menu li:first-child {
+	border-left: solid 1px #fff;
+	padding-left: 20px;
+}
+
+.menu li:nth-child(2) a {
+	display: block;
+}
+
+.menu li:nth-child(2) a:before {
+	background-image: url(../../images/sprite.svg);
+	background-position: 0 -184px;
+	content: 'Buscar'; /* esto para que la lupa pille el enlace de buscar y al picar en ella te vaya al link*/
+	text-indent: -9999px; /* TRUCO VERDE: Darle un text-indent negativo para mandarlo fuera de la vista. */
+	display: inline; /* display:inline para que me ponla la lista una al lado de la otra*/
+	float: left;
+	height: 16px;
+	margin-right: 10px;
+	margin-top: 2px;
+	width: 16px;
+}

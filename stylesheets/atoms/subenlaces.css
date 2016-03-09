@@ -1,0 +1,15 @@
+.subenlaces {
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 0px;
+	
+}
+.subenlaces li {
+	font-size: 14px;
+	margin-left: 20px;
+}
+.subenlaces li a {
+	color: #fff;
+	opacity: 0.8;
+	text-decoration: none;
+}
