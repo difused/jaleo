@@ -1,0 +1,52 @@
+.how-to h2 {
+	display: none;
+}
+
+.how-to ol {
+	list-style: none;
+}
+
+.how-to dl {
+	padding-right: 60px;
+}
+
+.how-to dt {
+	color: #000;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.how-to dd {
+	color: #333;
+	font-family: 'PT Serif', serif;
+	font-size: 17px;
+	margin-left: 0;
+}
+
+.how-to li i {
+	background-image: url(../../images/sprite.svg);
+	display: block;
+	margin-bottom: 30px;
+	text-indent: -9999px;
+}
+
+.how-to li:first-child i {
+	background-position: 0 -825px;
+	height: 44px;
+	margin-top: 2px;
+	width: 48px;
+}
+
+.how-to li:nth-child(2) i {
+	background-position: 0 -914px;
+	height: 46px;
+	width: 30px;
+}
+
+.how-to li:last-child i {
+	background-position: 0 -1004px;
+	height: 36px;
+	margin-top: 10px;
+	width: 31px;
+}

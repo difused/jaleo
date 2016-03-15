@@ -1,0 +1,49 @@
+.publishers {
+	background-color: #000;
+	height: 140px;
+	overflow: hidden; /* Se pone overflow hidden para que la capa coja el alto al tener elementos con float left o right */
+}
+
+.publishers h2 {
+	display: none;
+}
+
+.publishers ul {
+	list-style: none;
+}
+
+.publishers li {
+	display: inline-block;
+	float: left;
+}
+
+.publishers li .dreamworks {
+	background-image: url(../../images/sprite.svg);
+	background-position: 0 -411px;
+	display: block;
+	height: 64px;
+	margin-right: 70px;
+	margin-top: 22px;
+	text-indent: -9999px;
+	width: 128px;
+}
+
+.publishers li .filmax {
+	background-image: url(../../images/sprite.svg);
+	background-position: 0 -528px;
+	display: block;
+	height: 54px;
+	margin-top: 27px;
+	text-indent: -9999px;
+	width: 107px;
+}
+
+.publishers li .miramax {
+	background-image: url(../../images/sprite.svg);
+	background-position: 0 -644px;
+	display: block;
+	height: 17px;
+	margin-top: 27px;
+	text-indent: -9999px;
+	width: 108px;
+}

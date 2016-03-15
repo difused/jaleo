@@ -1,0 +1,82 @@
+.catalogue ul {
+	list-style: none;
+}
+
+.catalogue ul a {
+	text-decoration: none;
+}
+
+.catalogue ul h3 {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.catalogue ul time {
+	color: #666;
+	font-size: 14px;
+}
+
+.catalogue .cover {
+	position: relative;
+}
+
+.catalogue .cover ul {
+	display: none;
+}
+
+.catalogue .cover:hover ul {
+	background-color: rgba(0, 0, 0, 0.8);
+	bottom: 0;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	left: 0;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.catalogue .cover .description {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.catalogue .cover .description a {
+	color: #d4145a;
+	font-weight: bold;
+}
+
+.catalogue .cover .rating span {
+	background-image: url(../../images/sprite.svg);
+	background-position: -21px -271px;
+	bottom: 55px;
+	display: block;
+	left: 15px;
+	margin: 0 auto;
+	position: absolute;
+	text-indent: -9999px;
+	width: 100px;
+}
+
+.catalogue .cover .price {
+	bottom: 5px;
+	left: 5px;
+	position: absolute;
+	right: 5px;
+}
+
+.catalogue .cover .price a {
+	background-color: #d4145a;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}

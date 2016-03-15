@@ -1,0 +1,29 @@
+footer .logo {
+	float: none; /* Le ponemos el float none para que no se monte con lo de debajo, cuando pongamos el foundation se puede quitar del logo.css el float left y este float none del .logo */
+	margin-bottom: 25px;
+}
+footer hr {
+	background-color: #fff;
+	border: none;
+	height: 4px;
+	margin: 0;
+	width: 35px;
+}
+footer address {
+	color: #fff;
+	font-size: 12px;
+	margin-top: 25px;
+	opacity: 0.5;
+}
+footer .contacto {
+	color: #fff;
+	font-size: 12px;
+	opacity: 0.5;
+}
+footer .contacto a {
+	color: #fff;
+	text-decoration: none;
+}
+footer .contacto a:hover {
+	text-decoration: underline;
+}

@@ -5,20 +5,20 @@
     <title>Jaleo App</title>
     <meta content='Página ficha Los Vengadores' name='description'>
     <meta content='Máximo paquete' name='Arístides'>
-    <link href="stylesheets/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
     <link href='favicon.png' rel='icon' type='image/png'>
     <link href='favicon.ico' rel='shortcut icon'>
   </head>
   <body>
     <!-- inicio header -->
     <header>
-      <nav>
-        <ul class="logo">
+      <nav class="row">
+        <div class="logo large-6 columns">
           <li>
             <a href=''>Jaleo</a>
           </li>
-        </ul>
-        <ul class="menu">
+        </div>
+        <ul class="menu large-6 columns">
           <li>
             <a href=''>Iniciar sesión</a>
           </li>
@@ -85,35 +85,29 @@
           </fieldset>
         </form>
         <!-- inicio catálogo -->
-        <ul class="row">
-          <li class="large-2 columns">
-            <!-- Separamos la imagen del título para que sólo salga la información al hacer hover en la imagen -->
-            <div class="cover">
-              <a href='#'>
-                <img alt='Póster 127 Horas' src='images/posters/127-dias.jpg'>
-              </a>
-              <!-- Este ul va dentro del enlace de la imagen para que al hacer hover aparezca sobre ella -->
-              <ul>
-                <li class="description">
-                  Lorem ipsum dolor sit amet consectetur...
-                  <br><a href='#'>Más</a>
-                </li>
-                <li class="rating">
-                  <span>4 de 5 estrellas</span>
-                </li>
-                <li class="price">
-                  <a href=''>
-                    <strong>2,95€</strong>
-                  </a>
-                </li>
-              </ul>
-            </div>
+        <ul>
+          <li>
             <a href='#'>
+              <img alt='Póster 127 Horas' src='images/posters/127-dias.jpg'>
                 <h3>127 Días</h3>
                 <time datetime='2010'>2010</time>
             </a>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur...
+                <a href='#'>Más</a>
+              </li>
+              <li>
+                <span>4 de 5 estrellas</span>
+              </li>
+              <li>
+                <a href=''>
+                  <strong>2,95€</strong>
+                </a>
+              </li>
+            </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la película Apocalípsis Now' src='images/posters/apocalypse-now.jpg'>
                 <h3>Apocalypse Now</h3>
@@ -134,7 +128,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la  película Drácula' src='images/posters/dracula.jpg'>
                 <h3>Drácula</h3>
@@ -155,7 +149,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la  película Selma' src='images/posters/selma.jpg'>
                 <h3>Selma</h3>
@@ -176,7 +170,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la  película Batman' src='images/posters/batman.jpg'>
                 <h3>Batman</h3>
@@ -197,7 +191,9 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+        </ul>
+        <ul>
+          <li>
             <a href=''>
               <img alt='más info sobre la  película E.T., el extraterrestre' src='images/posters/et.jpg'>
                 <h3>E.T., el extraterrestre</h3>
@@ -218,7 +214,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la  película  Amelie' src='images/posters/amelie.jpg'>
                 <h3>Amelie</h3>
@@ -239,7 +235,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la  película Cisne Negro' src='images/posters/cisne-negro.jpg'>
                 <h3>Cisne negro</h3>
@@ -260,28 +256,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
-            <a href=''>
-              <img alt='más info sobre la  película Her' src='images/posters/her.jpg'>
-                <h3>Her</h3>
-                <time datetime='2013'>2013</time>
-            </a>
-            <ul>
-              <li>
-                Lorem ipsum dolor sit amet consectetur...
-                <a href=''>Más</a>
-              </li>
-              <li>
-                <span>4 de 5 estrellas</span>
-              </li>
-              <li>
-                <a href=''>
-                  <strong>2,95€</strong>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la  película  El Silencio de los Corderos' src='images/posters/el-silencio-de-los-corderos.jpg'>
                 <h3>El silencio de los corderos</h3>
@@ -302,7 +277,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la  película Avatar' src='images/posters/avatar.jpg'>
                 <h3>Avatar</h3>
@@ -323,7 +298,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la  película Maléfica' src='images/posters/malefica.jpg'>
                 <h3>Maléfica</h3>
@@ -344,7 +319,9 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+        </ul>
+        <ul>
+          <li>
             <a href=''>
               <img alt='más info sobre la  película American Beauty' src='images/posters/american-beauty.jpg'>
                 <h3>American Beauty</h3>
@@ -365,7 +342,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la  película Las Aventuras de Tin Tin' src='images/posters/tintin.jpg'>
                 <h3>Las Aventuras de Tin Tin</h3>
@@ -386,7 +363,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la película Los juegos del hambre: sinsajo parte-1' src='images/posters/sinsajo.jpg'>
                 <h3>Los juegos del hambre: sinsajo parte-1</h3>
@@ -407,7 +384,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la película Los Vengadores' src='images/posters/vengadores.jpg'>
                 <h3>Los Vengadores</h3>
@@ -428,7 +405,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la película Parque Jurásico' src='images/posters/parque-jurasico.jpg'>
                 <h3>Parque Jurásico</h3>
@@ -449,7 +426,7 @@
               </li>
             </ul>
           </li>
-          <li class="large-2 columns">
+          <li>
             <a href=''>
               <img alt='más info sobre la película Mi vecino Totoro' src='images/posters/totoro.jpg'>
                 <h3>Mi vecino Totoro</h3>
@@ -478,50 +455,44 @@
         <!-- Fin catálogo -->
       </section>
       <!-- section publishers -->
-      <section class="publishers">
+      <section>
         <h2>Listado de distribuidoras</h2>
-        <ul class="row">
+        <ul>
           <li>
-            <a href='' class="dreamworks">dreamworks</a>
+            <a href=''>dreamworks</a>
           </li>
           <li>
-            <a href='' class="filmax">filmax</a>
+            <a href=''>filmaz</a>
           </li>
           <li>
-            <a href='' class="miramax">miramax</a>
+            <a href=''>universal</a>
           </li>
           <li>
-            <a href='' class="universal">universal</a>
-          </li>
-          <li>
-            <a href='' class="otras">Otras distribuidoras</a>
+            <a href=''>Otras distribuidoras</a>
           </li>
         </ul>
       </section>
       <!-- section how-to -->
-      <section class="how-to">
+      <section>
         <h2>Listado de distribuidoras</h2>
-        <ol class="row">
-          <li class="large-4 columns">
+        <ol>
+          <li>
             <dl>
               <!-- <img src="images/icons/a.svg" alt="icono elige tu peli" /> -->
-              <i>icono 1</i>
               <dt>Elige tu película</dt>
               <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</dd>
             </dl>
           </li>
-          <li class="large-4 columns">
+          <li>
             <dl>
               <!-- <img src="images/icons/b.svg" alt="icono cómprala en un clic" /> -->
-              <i>icono 2</i>
-              <dt>Cómprala en un clic</dt>
+              <dt>Cómprala en clic</dt>
               <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text.</dd>
             </dl>
           </li>
-          <li class="large-4 columns">
+          <li>
             <dl>
               <!-- <img src="images/icons/b.svg" alt="icono cómprala en un clic" /> -->
-              <i>icono 3</i>
               <dt>Disfrútala donde quieras</dt>
               <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</dd>
             </dl>

@@ -1,0 +1,17 @@
+@font-face {
+ font-family: 'montserratlight';
+ src: url('montserratlight.eot'); /* IE9 */
+ src: url('montserratlight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+ url('montserratlight.woff') format('woff'), /* Navegadores modernos */
+ url('montserratlight.ttf') format('truetype'), /* Safari, Android, iOS */
+ url('webfont.svg#svgmontserratlight') format('svg'); /* versiones antiguas iOS */
+}
+@font-face {
+ font-family: 'montserratsemibold';
+ src: url('montserratsemibold.eot'); /* IE9 */
+ src: url('montserratsemibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+ url('montserratsemibold.woff') format('woff'), /* Navegadores modernos */
+ url('montserratsemibold.ttf') format('truetype'), /* Safari, Android, iOS */
+ url('montserratsemibold.svg#svgmontserratsemibold') format('svg'); /* versiones antiguas iOS */
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700|Montserrat:400,700');

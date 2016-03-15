@@ -1,15 +1,23 @@
+footer h3 {
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
 .subenlaces {
 	list-style: none;
+	margin: 0;
 	padding-left: 0px;
 	padding-top: 0px;
-	
 }
 .subenlaces li {
 	font-size: 14px;
-	margin-left: 20px;
+	font-weight: bold;
 }
 .subenlaces li a {
 	color: #fff;
 	opacity: 0.8;
 	text-decoration: none;
+}
+.subenlaces li a:hover {
+	text-decoration: underline;
 }
