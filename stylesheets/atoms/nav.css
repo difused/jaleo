@@ -38,31 +38,10 @@
 	background-position: 0 -184px;
 	content: 'Buscar'; /* esto para que la lupa pille el enlace de buscar y al picar en ella te vaya al link*/
 	text-indent: -9999px; /* TRUCO VERDE: Darle un text-indent negativo para mandarlo fuera de la vista. */
-	display: inline-block; /* display:inline para que me ponla la lista una al lado de la otra*/
+	display: inline; /* display:inline para que me ponla la lista una al lado de la otra*/
 	float: left;
 	height: 16px;
 	margin-right: 10px;
 	margin-top: 7px;
 	width: 16px;
 }
-/* tiny screens */
-@media only screen and (max-width: 640px) {
-	.menu li:nth-child(2) a:before{
-		background-position: 0 -184px;
-		background-size: 109px;
-		height: 16px;
-		margin-right: 10px;
-		margin-top: 7px;
-		width: 16px;
-	}
-
-}
-
-
-/* small screens */and
-@media only screen and (min-width: 641px) and (max-width: 767px) {AQUÍ CAMBIOS}
-
-/* medium screens */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {AQUÍ CAMBIOS}
-/* large screens */
-@media only screen and (min-width: 1024px) {AQUÍ CAMBIOS}
