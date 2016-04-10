@@ -1,0 +1,77 @@
+.catalogue {
+	background-color: #e6e6e6;
+}
+
+.catalogue fieldset {
+	border: none;
+	margin: 0;
+}
+
+.catalogue fieldset legend {
+	display: none;
+}
+
+.catalogue label {
+	color: #666;
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.catalogue .select {
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+	width: 120px;
+}
+
+.catalogue .select:after {
+	background: url(../../images/sprite.svg) -185px -142px no-repeat;
+	content: ' ';
+	display: block;
+	height: 5px;
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	width: 8px;
+}
+
+.catalogue select {
+	background-color: #ccc;
+	border: none;
+	color: #666;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 5px 12px;
+	-webkit-appearance: none;
+	width: 100%;
+}
+
+.catalogue input[type="checkbox"] {
+	display: inline-block;
+	float: left;
+	margin-top: 8px;
+}
+
+.catalogue input[type="submit"] {
+	display: none;
+}
+
+.catalogue .ordenar label {
+	float: right;
+}
+
+.catalogue .ordenar .select {
+	float: right;
+	width: 160px;
+}
+
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+    float: left;
+}
+
+.catalogue .row > li {
+	height: 271px;
+}

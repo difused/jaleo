@@ -52,7 +52,7 @@
 	background-color: rgba(0, 0, 0, 0.8);
 	bottom: 0;
 	left: 0;
-	padding: 30px 0;
+	padding: 17px 0;
 	position: absolute;
 	right: 0;
 }
@@ -67,7 +67,7 @@
 }
 
 .hero ul {
-	margin: 5px 0 0;
+	margin: 14px 0 0;
 	padding: 0;
 }
 
@@ -99,4 +99,35 @@
 	margin: 0;
 	text-indent: -9999px;
 	width: 100px;
+}
+
+.hero .more {
+	border: solid 2px #fff;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	line-height: 66px; /* El alto del texto */
+	margin-top: 12px;
+	/*padding: 20px 0; /* 20 de padding arriba y abajo para que sumados a los 30 del line-height haga los 70 que tiene que tener de alto */
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+.hero .view {
+	background-color: #d4145a;
+	color: #fff;
+	display: block;
+	font-size: 12px;
+	line-height: 1; /* Multiplicas por el font-size y te da el line-height */
+	margin-top: 12px;
+	padding: 17px 0;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+.hero .view span {
+	font-size: 24px;
+	font-weight: bold;
 }

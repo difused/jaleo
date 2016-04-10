@@ -8,6 +8,7 @@
 	background-position: 0 0;
 	display: block;
 	height: 34px;
+	margin: 13px 0;
 	opacity: 0.8;
 	text-indent: -9999px;/*mando el texto del enlace de jaleo a tomar por... con el indent y lo sutituyo con el logo.svg gracias al background-image:*/
 	width: 155px;

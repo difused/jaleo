@@ -1,0 +1,23 @@
+.showmorecover {
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.showmorecover p {
+	color: #666;
+	font-size: 14px;
+}
+
+.showmorecover a {
+	background-color: #d4145a;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 48px;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+}

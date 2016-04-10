@@ -4,6 +4,13 @@
 @import url('footer.css');
 @import url('base/font-family.css');
 @import url('atoms/cover.css');
+@import url('atoms/showmorecover.css');
 @import url('atoms/publishers.css');
 @import url('atoms/howto.css');
 @import url('hero.css');
+@import url('atoms/form.css');
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}

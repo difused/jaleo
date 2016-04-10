@@ -7,6 +7,7 @@
         <meta name="description" content="Página de inicio Jaleo">
         <meta name="Arístides" content="Máximo paquete">
         <link rel="icon" type="image/png" href="favicon.png">
+        <link href="stylesheets/styles.css" rel="stylesheet" type="text/css">
         <!-- para versiones viejunas de Internet Explorer -->
         <link rel="shortcut icon" href="favicon.ico">
     </head>
@@ -43,19 +44,17 @@
 tantos los dispositivos como quieras.
 ¿Ya estás registrado? <a href="#"><strong>Inicia tu sesión</strong></a> ahora.</p>
             </section>
-                <form>
+            <section>
+                <form id="login">
                     <fieldset>
                         <legend>Datos personales</legend>
                         <label for="name">Nombre completo</label>
-                        <input type="name" id="name" />
+                        <input type="text" id="name" />
                         <label for="email">Correo electrónico</label>
                         <input type="email" id="email" />
                         <label for="password">Contraseña</label>
                         <input type="password" id="password" />
                     </fieldset>
-                </form>
-            <section>
-                <form>
                     <fieldset>
                         <legend>Datos de pago</legend>
                         <h2>2,95<abbr title="euros">€</abbr></h2>
@@ -64,8 +63,8 @@ tantos los dispositivos como quieras.
                         <input type="checkbox" id="creditcard" />
                         <label for="creditcard">Tarjeta de crédito</label>
                         <div>
-                            <label for="creditcardnunmer">Número de tarjeta</label>
-                            <input type="creditcardnunmer" id="creditcardnunmer" />
+                            <label for="creditcardnumber">Número de tarjeta</label>
+                            <input type="text" id="creditcardnumber" />
                             <br><br><label for="caducity">Caducidad</label>
                             <select id="caducity">
                                 <option value="0">Mes</option>
@@ -97,6 +96,8 @@ tantos los dispositivos como quieras.
                                 <option>2026</option>
                                 <option>2027</option>   
                             </select>
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" />
                         </div>
                         <div>
                             <input type="checkbox" id="newsletter" />
@@ -105,8 +106,7 @@ tantos los dispositivos como quieras.
                         <input type="submit" value="Submit">
                     </fieldset>
                 </form>
-                <p>Al registrarte estás de acuerdo con nuestros <a href="#"><strong>términos de uso</strong></a> y <a href="#"><strong>política de privacidad</strong></a>.
-¿Necesitas ayuda? <a href="#"><strong>Contacta con nosotros</strong></a>.</p>
+                <p>Al registrarte estás de acuerdo con nuestros <a href="#"><strong>términos de uso</strong></a> y <a href="#"><strong>política de privacidad</strong></a>. ¿Necesitas ayuda? <a href="#"><strong>Contacta con nosotros</strong></a>.</p>
             </section>
         </div>
               		<!-- main footer -->
@@ -145,6 +145,10 @@ tantos los dispositivos como quieras.
 				<p>0034 555 55 65 85<br/><a href="mailto:info@jaleoapp.es">info@jaleoapp.es</a></p>
 			</div>
 		</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="javascript/jquery.payment.min.js"></script>
+        <script src="javascript/sweetalert.min.js"></script>
+        <script src="javascript/jaleo.js"></script>
 
     </body>
 </html>
